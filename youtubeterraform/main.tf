@@ -11,3 +11,9 @@ resource "aws_instance" "pranay" {
     Name = "sample-text"
   }
 }
+
+resource "aws_s3_bucket" "example" {
+  bucket = "s3demo_my-tf-test-bucket112221"
+
+  
+}
