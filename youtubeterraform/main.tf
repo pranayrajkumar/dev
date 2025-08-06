@@ -8,6 +8,6 @@ resource "aws_instance" "pranay" {
   instance_type = "t2.micro"
   subnet_id     = "subnet-003cfbbd4cf753c77"
   tags = {
-    Name = "sample"
+    Name = "sample-text"
   }
 }
